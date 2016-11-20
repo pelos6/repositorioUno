@@ -76,3 +76,7 @@ a:hover {
 .site-footer{
   background-color: aliceblue;
 }
+img{
+  border-color: orange;
+  border-style: dotted;
+}

@@ -49,6 +49,12 @@
           
         
           
+        
+          
+          <a class="page-link" href="/repositorioUno/proyecto.html">proyecto</a>
+          
+        
+          
           <a class="page-link" href="/repositorioUno/plantillas.html">plantillas</a>
           
         
@@ -74,6 +80,7 @@
 
 <ul>
   <li><a href="#proposito">Proposito</a></li>
+  <li><a href="#inicio">inicio</a></li>
 </ul>
 
 <!-- /MDTOC -->
@@ -83,6 +90,41 @@
   <li>tener una plantilla para proyectos publicos y  una documentación pública en gitHubPages</li>
   <li>la documentación del proyecto en el directorio /docs</li>
   <li>que se pueda editar online</li>
+</ul>
+
+<h1 id="inicio">inicio</h1>
+<ul>
+  <li>
+    <p>se puede hacer un fork desde otra cuenta con lo que tienes una copia del repositorio
+<img src="/repositorioUno/img/forkRepositorioUno.png" alt="captura" /></p>
+  </li>
+  <li>se puede cambiar el nombre en settings</li>
+  <li>
+    <p>activar gitHubPages
+<img src="/repositorioUno/img/activarGitHubPages.png" alt="captura" /></p>
+  </li>
+  <li>
+    <p>es importante cambiar en <code class="highlighter-rouge">_config.yml</code></p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>baseurl: "/notasTrabajo" # the subpath of your site, e.g. /blog  
+</code></pre>
+    </div>
+  </li>
+  <li>baseurl sirve para que encuentre las css
+<img src="/repositorioUno/img/sitioPublicado.png" alt="captura" /></li>
+  <li>en ese mismo archivo se puede configurar parte del entorno</li>
+  <li>
+    <p>el archivo <code class="highlighter-rouge">plantilas.md</code> muestra como se crean las entradas en el menú y como se ordenan</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>    ---
+    menu: plantillas
+    orden: 10
+    title: plantillas
+    author: javier
+    ---
+</code></pre>
+    </div>
+  </li>
 </ul>
 
   </div>

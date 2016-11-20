@@ -6,8 +6,8 @@
 </description>
     <link>https://pelos6.github.io/repositorioUno/</link>
     <atom:link href="https://pelos6.github.io/repositorioUno/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Nov 2016 19:02:20 +0100</pubDate>
-    <lastBuildDate>Sun, 20 Nov 2016 19:02:20 +0100</lastBuildDate>
+    <pubDate>Sun, 20 Nov 2016 21:23:04 +0100</pubDate>
+    <lastBuildDate>Sun, 20 Nov 2016 21:23:04 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -16,6 +16,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#proposito&quot;&gt;Proposito&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#inicio&quot;&gt;inicio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- /MDTOC --&gt;
@@ -25,6 +26,41 @@
   &lt;li&gt;tener una plantilla para proyectos publicos y  una documentación pública en gitHubPages&lt;/li&gt;
   &lt;li&gt;la documentación del proyecto en el directorio /docs&lt;/li&gt;
   &lt;li&gt;que se pueda editar online&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;inicio&quot;&gt;inicio&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;se puede hacer un fork desde otra cuenta con lo que tienes una copia del repositorio
+&lt;img src=&quot;/repositorioUno/img/forkRepositorioUno.png&quot; alt=&quot;captura&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;se puede cambiar el nombre en settings&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;activar gitHubPages
+&lt;img src=&quot;/repositorioUno/img/activarGitHubPages.png&quot; alt=&quot;captura&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;es importante cambiar en &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;baseurl: &quot;/notasTrabajo&quot; # the subpath of your site, e.g. /blog  
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;baseurl sirve para que encuentre las css
+&lt;img src=&quot;/repositorioUno/img/sitioPublicado.png&quot; alt=&quot;captura&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;en ese mismo archivo se puede configurar parte del entorno&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;el archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;plantilas.md&lt;/code&gt; muestra como se crean las entradas en el menú y como se ordenan&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    ---
+    menu: plantillas
+    orden: 10
+    title: plantillas
+    author: javier
+    ---
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 19 Nov 2016 23:32:14 +0100</pubDate>
