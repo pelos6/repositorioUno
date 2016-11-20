@@ -1,0 +1,78 @@
+/* la tabla con linea*/
+th {
+    background-color: #a9a9a9
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+/* flotar a la derecha*/
+.flota_derecha
+{
+    float: right;
+}
+/* para la flecha que sube al titulo*/
+.flecha_arriba
+{
+    color: black;
+    font-style: blod;
+    font-size: 35px;
+}
+/*los enlaces sin decoración y de distinto tamaño */
+a, a:visited{
+    text-decoration: none;
+    color: black;
+     /*   font-style: italic; */
+   font-size: 1.1em;
+}
+/* subrayado al pasar el ratón*/
+a:hover {
+    text-decoration: underline;
+}
+/*para la galeria de fotos*/
+
+.photo-gallery, .photo-gallery li {
+	list-style: none;
+	padding: 0;
+}
+
+.photo-gallery li {
+	display: inline-block;
+	width: 33%;
+}
+
+.photo-gallery li img {
+	width: 100%;
+}
+/**
+ * Wrapper lo saco de main.css  pues lo sobreecribe mais.scss
+ * ampliado a 1000 para los menus más lorgos
+ */
+.wrapper {
+  max-width: -webkit-calc(1000px - (30px * 2));
+  max-width: calc(1000px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(900px - (30px));
+      max-width: calc(900px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
+.site-header{
+  background-color: lavenderblush;
+}
+.page-content
+{background-color: ghostwhite;}
+.site-footer{
+  background-color: aliceblue;
+}
