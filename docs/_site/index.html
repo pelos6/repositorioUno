@@ -44,6 +44,14 @@
         
           
         
+          
+        
+          
+        
+          
+          <a class="page-link" href="/repositorioUno/plantillas.html">plantillas</a>
+          
+        
       </div>
     </nav>
 
@@ -66,11 +74,20 @@
   <script>
     window.store = {
       
+        "feed-xml": {
+          "title": "feed",
+          "author": "javier",
+          "category": "",
+          "content": "      repositorio uno    Intento de hacer un inicio de documentación.    https://pelos6.github.io/repositorioUno/        Sun, 20 Nov 2016 19:02:20 +0100    Sun, 20 Nov 2016 19:02:20 +0100    Jekyll v3.2.1                  Instalación y primeros pasos!        &lt;!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 --&gt;&lt;ul&gt;  &lt;li&gt;&lt;a href=&quot;#proposito&quot;&gt;Proposito&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;!-- /MDTOC --&gt;&lt;h1 id=&quot;proposito&quot;&gt;Proposito&lt;/h1&gt;&lt;ul&gt;  &lt;li&gt;tener una plantilla para proyectos publicos y  una documentación pública en gitHubPages&lt;/li&gt;  &lt;li&gt;la documentación del proyecto en el directorio /docs&lt;/li&gt;  &lt;li&gt;que se pueda editar online&lt;/li&gt;&lt;/ul&gt;        Sat, 19 Nov 2016 23:32:14 +0100        https://pelos6.github.io/repositorioUno/post/2016/11/19/instalacion-primeros-pasos.html        https://pelos6.github.io/repositorioUno/post/2016/11/19/instalacion-primeros-pasos.html                        post                    ",
+          "url": "/repositorioUno/feed.xml"
+        }
+        ,
+      
         "": {
           "title": "",
-          "author": "",
+          "author": "javier",
           "category": "",
-          "content": "      Buscar                    Posts en notas personales      {% for post in site.posts %}              {{ post.date | date: \"%b %-d, %Y\" }}                  {{ post.title | escape }}                  {% endfor %}    subscribe via RSS",
+          "content": "      Buscar                    Posts en {{site.title}}      {% for post in site.posts %}              {{ post.date | date: \"%b %-d, %Y\" }}                  {{ post.title | escape }}                  {% endfor %}    subscribe via RSS",
           "url": "/repositorioUno/"
         }
         ,
@@ -84,12 +101,30 @@
         }
         ,
       
-        "primermd-html": {
-          "title": "primer md",
+        "plantillamenu-html": {
+          "title": "plantilla menu",
           "author": "javier",
           "category": "",
-          "content": "# esto es el primer archivo md* y esto es la continuación",
-          "url": "/repositorioUno/primerMd.html"
+          "content": "[inicio](index.html) / [plantillas](plantillas.html) / {{page.title}}| nombre corto   | descripción        |   enlace           |  | ---------------| ------------------ | -------------------|  | simple         |                    | [plantilla simple](plantillaSimple.html)|  | menú en tablas |                    | [plantilla menu](plantillaMenu.html)|  ",
+          "url": "/repositorioUno/plantillaMenu.html"
+        }
+        ,
+      
+        "plantillasimple-html": {
+          "title": "plantilla simple",
+          "author": "javier",
+          "category": "",
+          "content": "[inicio](inicio.html) / [programacion](programacion.html) / {{page.title}}1. [proposito](#proposito)   2. [titulo](#titulo)   3. [menu](#menu)   4. [miga de pan](#miga-de-pan)   5. [parrafos y saltos de linea](#parrafos-y-saltos-de-linea)   6. [cabeceras](#cabeceras)   7. [simulando un H1  para cabeceras grandes](#simulando-un-h1-para-cabeceras-grandes)   &emsp;7.1. [simulando un H2](#simulando-un-h2)   &emsp;&emsp;7.1.1. [simulando un H3](#simulando-un-h3)   &emsp;&emsp;&emsp;7.1.1.1. [simulando un H4](#simulando-un-h4)   &emsp;&emsp;&emsp;&emsp;7.1.1.1.1. [simulando un H5](#simulando-un-h5)   &emsp;&emsp;&emsp;&emsp;7.1.1.1.2. [otro simulando un H5](#otro-simulando-un-h5)   &emsp;&emsp;&emsp;&emsp;7.1.1.1.3. [mas simulando un H5](#mas-simulando-un-h5)   &emsp;&emsp;&emsp;&emsp;7.1.1.1.4. [otro mas simulando un H5](#otro-mas-simulando-un-h5)   &emsp;&emsp;&emsp;&emsp;7.1.1.1.5. [y aun otro mas simulando un H5](#y-aun-otro-mas-simulando-un-h5)   &emsp;&emsp;&emsp;&emsp;&emsp;7.1.1.1.5.1. [simulando un H6](#simulando-un-h6)   8. [imagenes](#imagenes)   9. [codigo](#codigo)   10. [enlaces](#enlaces)   # proposito- tener la plantilla de todos los documentos para que sean coherentes- poner en este documento todas los elementos que se pueden usar# titulo- es una variable propia de front matter llamada title# menu- si queremos que salga en el menu se usa la variable menu de front matter#  miga de pan- indica el orden lógico de los archivos- el titulo de la página el final lo que indica en que página estamos.# parrafos y saltos de lineaPara crear párrafos se deja una línea en blanco.Para crear un salto de línea dentro de un párrafo,   ademas del salto es necesario poner dos  espacios al final de la última palabra de esa línea  # cabecerassimulan los tags h de html# simulando un H1  para cabeceras grandes## simulando un H2  ### simulando un H3   #### simulando un H4   ##### simulando un H5  ##### otro simulando un H5  ##### mas simulando un H5  ##### otro mas simulando un H5  ##### y aun otro mas simulando un H5  ###### simulando un H6     # imagenes![payaso con titulo](img/payaso.jpg \"payaso\")# codigo- bower install me da este error  ```bower install\"appbower\" no se reconoce como un comando interno o externo,programa o archivo por lotes ejecutable.```- otra forma                  {                  \"_aerobatic\": {                      \"router\": [                        {                          \"module\": \"basic-auth\",                           \"options\": {                            \"username\": \"$BASIC_AUTH_USERNAME\",                            \"password\": \"$BASIC_AUTH_PASSWORD\"                          }                        },                        {                          \"module\": \"webpage\"                        }                      ],                     \"build\": {                        \"engine\": \"jekyll\"                      }                    }                  }  # enlaces[chuleta de Markdown](markdownCheleta.html)",
+          "url": "/repositorioUno/plantillaSimple.html"
+        }
+        ,
+      
+        "plantillas-html": {
+          "title": "plantillas",
+          "author": "javier",
+          "category": "",
+          "content": "[inicio](index.html) /  {{page.title}}| nombre corto   | descripción        |   enlace           |  | ---------------| ------------------ | -------------------|  | simple         |                    | [plantilla simple](plantillaSimple.html)|  | menú en tablas |                    | [plantilla menu](plantillaMenu.html)|  ",
+          "url": "/repositorioUno/plantillas.html"
         }
         
       
@@ -97,9 +132,17 @@
   </script>
   <script src="/repositorioUno/js/lunr.min.js"></script>
   <script src="/repositorioUno/js/search.js"></script>
-  <h1 class="page-heading">Posts en notas personales</h1>
+  <h1 class="page-heading">Posts en repositorio uno</h1>
 
   <ul class="post-list">
+    
+      <li>
+        <span class="post-meta">Nov 19, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/repositorioUno/post/2016/11/19/instalacion-primeros-pasos.html">Instalación y primeros pasos!</a>
+        </h2>
+      </li>
     
   </ul>
 

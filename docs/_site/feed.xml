@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>repositorio uno</title>
+    <description>Intento de hacer un inicio de documentación.
+</description>
+    <link>https://pelos6.github.io/repositorioUno/</link>
+    <atom:link href="https://pelos6.github.io/repositorioUno/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Nov 2016 19:02:20 +0100</pubDate>
+    <lastBuildDate>Sun, 20 Nov 2016 19:02:20 +0100</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Instalación y primeros pasos!</title>
+        <description>&lt;!-- MDTOC maxdepth:6 firsth1:1 numbering:0 flatten:0 bullets:1 updateOnSave:1 --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#proposito&quot;&gt;Proposito&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- /MDTOC --&gt;
+
+&lt;h1 id=&quot;proposito&quot;&gt;Proposito&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;tener una plantilla para proyectos publicos y  una documentación pública en gitHubPages&lt;/li&gt;
+  &lt;li&gt;la documentación del proyecto en el directorio /docs&lt;/li&gt;
+  &lt;li&gt;que se pueda editar online&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 19 Nov 2016 23:32:14 +0100</pubDate>
+        <link>https://pelos6.github.io/repositorioUno/post/2016/11/19/instalacion-primeros-pasos.html</link>
+        <guid isPermaLink="true">https://pelos6.github.io/repositorioUno/post/2016/11/19/instalacion-primeros-pasos.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+  </channel>
+</rss>

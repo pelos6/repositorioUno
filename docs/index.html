@@ -1,5 +1,6 @@
 ---
 layout: default
+author: javier
 ---
 
 <div class="home">
@@ -27,7 +28,7 @@ layout: default
   </script>
   <script src="{{ "/js/lunr.min.js"  | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/search.js"  | prepend: site.baseurl }}"></script>
-  <h1 class="page-heading">Posts en notas personales</h1>
+  <h1 class="page-heading">Posts en {{site.title}}</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}

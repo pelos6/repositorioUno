@@ -1,4 +1,3 @@
-
 /**
  * Reset some basic elements
  */
@@ -109,25 +108,24 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-    /**
-     * Wrapper
-     * ampliado a 900 para los menus más lorgos
-     */
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(900px - (30px * 2));
-      max-width: calc(900px - (30px * 2));
-      margin-right: auto;
-      margin-left: auto;
-      padding-right: 30px;
-      padding-left: 30px; }
-      @media screen and (max-width: 800px) {
-        .wrapper {
-          max-width: -webkit-calc(900px - (30px));
-          max-width: calc(900px - (30px));
-          padding-right: 15px;
-          padding-left: 15px; } }
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
 
-    /**
+/**
  * Clearfix
  */
 .wrapper:after, .footer-col-wrapper:after {
@@ -457,30 +455,3 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
-/* la tabla con linea*/
-table, th, td {
-    border-color: black;
-    border: 1px solid #A9A9A9;
-    border-collapse: collapse;
-}
-/* flotar a la derecha*/
-.flota_derecha
-{
-    float: right;
-}
-/* para la flecha que sube al titulo*/
-.flecha_arriba
-{
-    color: black;
-    font-style: blod;
-    font-size: 35px;
-}
-/*los enlaces sin decoración y de distinto calor mas gris*/
-a, a:visited{
-    text-decoration: none;
-    color: black;
-}
-/* subrayado al pasar el ratón*/
-a:hover {
-    text-decoration: underline;
-}
