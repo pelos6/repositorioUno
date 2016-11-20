@@ -16,5 +16,6 @@ author: javier
 - tener un ejemplo ...
 
 # titulo
-* enlace a un archivo del proyecto ... pero no funciona y no se si es interesante.
-* [enlace](repositorioUno/sentencia.sql)
+* enlace a un archivo del proyecto
+* [enlace](https://github.com/javieriranzoburriel/repositorioUno/blob/master/sentencia.sql)
+* [enlace en crudo](https://raw.githubusercontent.com/javieriranzoburriel/repositorioUno/master/sentencia.sql)
