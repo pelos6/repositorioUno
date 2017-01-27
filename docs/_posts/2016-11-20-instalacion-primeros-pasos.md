@@ -14,6 +14,7 @@ categories: post
 # Proposito
 * tener una plantilla para proyectos publicos y  una documentación pública en gitHubPages
 * la documentación del proyecto en el directorio /docs
+      + de esta forma se tienen en el mismo repositorio el proyecto y la documentación.
 * que se pueda editar online
 
 # inicio
@@ -26,7 +27,7 @@ categories: post
 
 * es importante cambiar en `_config.yml`  
 
-      baseurl: "/notasTrabajo" # the subpath of your site, e.g. /blog  
+      baseurl: "/repositorioUno" # the subpath of your site, e.g. /blog  
 
 * baseurl sirve para que encuentre las css
 ![captura]({{ "/img/sitioPublicado.png" | prepend: site.baseurl }})
