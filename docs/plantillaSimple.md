@@ -2,7 +2,7 @@
 title: plantilla simple
 author: javier
 ---
-[inicio](inicio.html) / [programacion](programacion.html) / {{page.title}}
+[inicio](index.html) / [programacion](programacion.html) / {{page.title}}
 
 <!-- MDTOC maxdepth:6 firsth1:1 numbering:1 flatten:0 bullets:0 updateOnSave:1 -->
 
