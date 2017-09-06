@@ -1,2 +1,4 @@
 # repositorioUno
-repositorio uno
+
+* ejemplo plantilla simple para blog con jekyll
+* tiene busquedas y plantillas
