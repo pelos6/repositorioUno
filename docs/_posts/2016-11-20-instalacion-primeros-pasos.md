@@ -21,6 +21,7 @@ categories: post
 * se puede hacer un fork desde otra cuenta con lo que tienes una copia del repositorio
 ![captura]({{ "/img/forkRepositorioUno.png" | prepend: site.baseurl }})
 
+
 * se puede cambiar el nombre en settings
 * activar gitHubPages
 ![captura]({{ "/img/activarGitHubPages.png" | prepend: site.baseurl }})
